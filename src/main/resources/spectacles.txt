@@ -1,0 +1,10 @@
+10001;Concert de rock avec des groupes locaux;200;50;25.00
+10002;Théâtre classique : Roméo et Juliette;150;20;30.00
+10003;Spectacle de magie avec le magicien XYZ;100;10;40.00
+10004;Danse contemporaine par la compagnie ABC;80;5;35.00
+10005;Festival de films d'animation;300;150;15.00
+10006;Stand-up comique avec plusieurs humoristes;120;30;20.00
+10007;Concert de jazz en plein air;250;80;28.00
+10008;Exposition d'art moderne;60;15;10.00
+10009;Pièce de théâtre : Le Misanthrope;100;25;32.00
+10010;Concert de musique électronique;500;200;18.00
