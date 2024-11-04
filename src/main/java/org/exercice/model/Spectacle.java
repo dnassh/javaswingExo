@@ -7,6 +7,17 @@ public class Spectacle {
     private int billetsDispos;
     private double price;
 
+    public Spectacle(){
+
+    }
+    public Spectacle(int number, String description, int nbrBillets, int billetsDispos, double price) {
+        this.number = number;
+        this.description = description;
+        this.nbrBillets = nbrBillets;
+        this.billetsDispos = billetsDispos;
+        this.price = price;
+    }
+
     public int getNumber() {
         return number;
     }
@@ -45,5 +56,16 @@ public class Spectacle {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Spectacle{" +
+                "number=" + number +
+                ", description='" + description + '\'' +
+                ", nbrBillets=" + nbrBillets +
+                ", billetsDispos=" + billetsDispos +
+                ", price=" + price +
+                '}';
     }
 }
