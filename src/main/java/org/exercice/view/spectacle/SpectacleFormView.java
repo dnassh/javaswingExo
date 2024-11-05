@@ -1,4 +1,4 @@
-package org.exercice.view;
+package org.exercice.view.spectacle;
 
 import org.exercice.model.Spectacle;
 
