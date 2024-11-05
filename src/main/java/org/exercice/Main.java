@@ -9,6 +9,7 @@ import org.exercice.view.MainView;
 
 
 import javax.swing.*;
+import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -57,6 +58,9 @@ public class Main {
 
         liste.getColumnModel().getColumn(5).setCellRenderer(new ButtonRenderer());
         liste.getColumnModel().getColumn(5).setCellEditor(new ButtonEditor(liste, listeDesSpectacles, spectacleModel));
+
+        TableColumn column = liste.getColumnModel().getColumn(5);
+        column.setMinWidth(150);
 
         JScrollPane centerPane = new JScrollPane (liste,
                 JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
